@@ -109,16 +109,16 @@ Under the correct **Subject‑Independent (SI)** protocol (Leave‑One‑Subject
 ---
 
 ## Project Structure
-.
-├── eeg_emotion_libeer.ipynb # Main Colab notebook
-├── README.md
-└── data/ # Auto‑downloaded dataset
+
+- eeg_emotion_libeer.ipynb   # Main Colab notebook
+- data/                      # Auto‑downloaded dataset
+- README.md
 
 ## 项目结构
-.
-├── eeg_emotion_libeer.ipynb # 主 Colab Notebook
-├── README.md
-└── data/ # 自动下载的数据集
+
+- eeg_emotion_libeer.ipynb   # 主 Colab Notebook
+- data/                      # 自动下载的数据集
+- README.md
 
 ---
 
