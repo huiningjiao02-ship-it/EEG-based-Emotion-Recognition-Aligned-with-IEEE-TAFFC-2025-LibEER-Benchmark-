@@ -50,3 +50,13 @@ Under the correct **Subject‑Independent (SI)** protocol (Leave‑One‑Subject
 - Replace 1D‑CNN with **DGCNN** to incorporate graph‑based spatial information
 
 ## Project Structure
+.
+├── eeg_emotion_libeer.ipynb # Main Colab notebook
+├── README.md
+└── data/ # Auto‑downloaded dataset
+
+## Reference
+
+- **LibEER**: *A Comprehensive Benchmark and Algorithm Library for EEG‑based Emotion Recognition*  
+  IEEE Transactions on Affective Computing, 2025  
+  [arXiv:2410.09767](https://arxiv.org/abs/2410.09767) | [GitHub](https://github.com/XJTU-EEG/LibEER)
