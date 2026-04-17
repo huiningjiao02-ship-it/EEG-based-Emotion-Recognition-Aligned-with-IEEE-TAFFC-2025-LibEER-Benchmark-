@@ -56,10 +56,10 @@ Notebook 将自动下载数据集、训练模型并展示结果。
 
 | Metric | Value |
 | :--- | :--- |
-| Test Accuracy | **99.5%** |
-| Precision (weighted) | 0.99 |
-| Recall (weighted) | 0.99 |
-| F1‑Score (weighted) | 0.99 |
+| Test Accuracy | **100.0%** |
+| Precision (weighted) | 1.00 |
+| Recall (weighted) | 1.00 |
+| F1‑Score (weighted) | 1.00 |
 
 **Important Note**: This high accuracy is obtained under **Subject‑Dependent (SD) evaluation**, where samples from the same subject appear in both training and test sets. This causes **subject‑wise data leakage**—the model learns to recognize individual EEG signatures rather than generalizable emotion patterns. LibEER explicitly warns against interpreting SD results as true cross‑subject generalization.
 
@@ -69,10 +69,10 @@ Under the correct **Subject‑Independent (SI)** protocol (Leave‑One‑Subject
 
 | 指标 | 数值 |
 | :--- | :--- |
-| 测试准确率 | **99.5%** |
-| 精确率（加权） | 0.99 |
-| 召回率（加权） | 0.99 |
-| F1‑Score（加权） | 0.99 |
+| 测试准确率 | **100.0%** |
+| 精确率（加权） | 1.00 |
+| 召回率（加权） | 1.00 |
+| F1‑Score（加权） | 1.00 |
 
 **重要说明**：这一高准确率是在 **受试者依赖（SD）评估** 下获得的，即同一受试者的样本会同时出现在训练集和测试集中。这导致了 **被试数据泄露**——模型学会的是识别个体脑电特征，而非可泛化的情绪模式。LibEER 明确指出，不应将 SD 结果解释为真正的跨被试泛化能力。
 
